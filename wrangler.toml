@@ -2,6 +2,15 @@ name = "cloudflare-docker-proxy"
 workers_dev = true
 main = "src/index.js"
 compatibility_date = "2021-12-07"
+routes = [
+    { pattern = "docker.reg.aibofan.com", custom_domain = true },
+    { pattern = "quay.reg.aibofan.com", custom_domain = true },
+    { pattern = "gcr.reg.aibofan.com", custom_domain = true },
+    { pattern = "k8s-gcr.reg.aibofan.com", custom_domain = true },
+    { pattern = "k8s.reg.aibofan.com", custom_domain = true },
+    { pattern = "ghcr.reg.aibofan.com", custom_domain = true },
+    { pattern = "cloudsmith.reg.aibofan.com", custom_domain = true },
+]
 
 [dev]
 ip = "0.0.0.0"

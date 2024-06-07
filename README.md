@@ -1,3 +1,11 @@
+<!--
+ * @Author: maisui maisuier@pm.me
+ * @Date: 2024-06-07 22:03:39
+ * @LastEditors: maisui maisuier@pm.me
+ * @LastEditTime: 2024-06-07 22:07:31
+ * @FilePath: \cloudflare-docker-proxy\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # cloudflare-docker-proxy
 
 ![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
@@ -5,7 +13,7 @@
 > If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
 
 ## Deploy
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/WheatSprig/cloudflare-docker-proxy)
 
 1. fork this project
 2. modify the link of the above button to your fork url
